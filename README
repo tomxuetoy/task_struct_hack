@@ -1,0 +1,6 @@
+How to make?
+	make -C /lib/modules/$(uname -r)/build/ M=$(pwd) modules
+
+And then
+	sudo insmod test_size.ko
+	dmesg | tail
