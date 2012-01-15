@@ -24,8 +24,9 @@ static int hello_init(void) {
 	for(task = current; task != &init_task; task = task->parent)
 		printk(KERN_ALERT "The series of task name: %s\n", task->comm);
 
-	for(task = next_task(&init_task); task != &init_task; task = next_task(task))
-		printk(KERN_ALERT "iList all the task name: %s", task->comm);
+	//for(task = next_task(&init_task); task != &init_task; task = next_task(task))
+	for_each_process(task)
+		printk(KERN_ALERT "List all the task name: %s\t\t%d", task->comm, task->pid);
 
     return 0;
 }
