@@ -1,0 +1,1 @@
+cmd_/home/maemo/windows/mycode/task_struct_hack/task_struct_hack.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-3.0.0-14-generic/scripts/module-common.lds --build-id  -o /home/maemo/windows/mycode/task_struct_hack/task_struct_hack.ko /home/maemo/windows/mycode/task_struct_hack/task_struct_hack.o /home/maemo/windows/mycode/task_struct_hack/task_struct_hack.mod.o

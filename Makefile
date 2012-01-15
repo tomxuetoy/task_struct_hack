@@ -1,1 +1,1 @@
-obj-m := test_size.o
+obj-m := task_struct_hack.o

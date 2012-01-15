@@ -2,5 +2,5 @@ How to make?
 	make -C /lib/modules/$(uname -r)/build/ M=$(pwd) modules
 
 And then
-	sudo insmod test_size.ko
+	sudo insmod task_struct_hack.ko
 	dmesg | tail
