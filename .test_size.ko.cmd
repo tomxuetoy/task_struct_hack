@@ -1,0 +1,1 @@
+cmd_/home/maemo/windows/mycode/sizeof_task_struct/test_size.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-3.0.0-14-generic/scripts/module-common.lds --build-id  -o /home/maemo/windows/mycode/sizeof_task_struct/test_size.ko /home/maemo/windows/mycode/sizeof_task_struct/test_size.o /home/maemo/windows/mycode/sizeof_task_struct/test_size.mod.o
